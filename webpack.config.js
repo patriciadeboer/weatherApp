@@ -6,6 +6,9 @@ module.exports = {
     filename: './public/bundle.js'
   },
   devtool: 'source-maps',
+  devServer:{
+    contentBase:'./public'
+  },
   module: {
     rules: [
       {
